@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Содержание</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <p class="cont_title_style">There is the form:</p>
+    <p></p>
+    
+    <div class="under">
+    <p class="cont_title_style e" >Send feedback on the film</p>
+    </div>
+    <p><iframe src="newfram.html" name="area" width="500" height="150"></iframe></p>
+    <form action="http://somesite.com/script.asp" method="POST" target="area">
+        <p>
+        <label for="login" class="sub_itemm">Ник пользователя: </label>
+        <input type="text" name="login" placeholder="Введите имя" size=15 maxlength=10 style="height: 30px; width: 200px;" />
+        </p>
+        <p>
+        <label for="chb" class="dada">Отображать имя на сайте: </label>
+        <input type="checkbox" name="chb" checked>
+        </p>
+        <p>
+        <label for="chb" class="dada">Отображать статистику: </label>
+        <input type="checkbox" name="chb" checked>
+        </p>
+        <hr />
+        
+        <label for="comp" class="dada">Пол: </label>
+        <p class="dada mb"><input type="radio" name="comp" value="P3" checked>Male</input>
+        <input type="radio" name="comp" value="P4">Female</input></p>
+
+        <div class="flfl">
+        <label class="sub_itemm">
+            Film:
+            <select size="5" multiple name="comp_select" class="dada">
+                <option selected value="P1">Green Mile</option>
+                <option value="P2">Shawshank Redemtion</option>
+                <option value="P3">Lord of the Rings, The Return of the King</option>
+                <option value="P4">Interstellar</option>
+                <option value="P5">Lord of the Rings, The Fellowship of the Ring</option>
+                <option value="P6">Shindler's List</option>
+                <option value="P7">Forrest Gump</option>
+                <option value="P8">Lord of the Rings, The Two Towers</option>
+                <option value="P9">Untouchables</option>
+                <option value="P10">Klaus</option>
+            </select>
+        </label>
+
+        <label class="sub_itemm">
+            Film #2:
+            <select size="1" name="comp_combobox" class="dada">
+                <option selected value="P1">Green Mile</option>
+                <option value="P2">Shawshank Redemtion</option>
+                <option value="P3">Lord of the Rings, The Return of the King</option>
+                <option value="P4">Interstellar</option>
+                <option value="P5">Lord of the Rings, The Fellowship of the Ring</option>
+                <option value="P6">Shindler's List</option>
+                <option value="P7">Forrest Gump</option>
+                <option value="P8">Lord of the Rings, The Two Towers</option>
+                <option value="P9">Untouchables</option>
+                <option value="P10">Klaus</option>
+            </select>
+        </label>
+        </div>
+        <p></p>
+        <label class="sub_itemm">
+            Film #3:
+            <input type="text" name="datalist1" list="comp_combobox_datalist" size=40 maxlength=40 class="dada"/>
+            <datalist id="comp_combobox_datalist">
+                <option selected>Green Mile</option>
+                <option>Shawshank Redemtion</option>
+                <option>Lord of the Rings, The Return of the King</option>
+                <option>Interstellar</option>
+                <option>Lord of the Rings, The Fellowship of the Ring</option>
+                <option>Shindler's List</option>
+                <option>Forrest Gump</option>
+                <option>Lord of the Rings, The Two Towers</option>
+                <option>Untouchables</option>
+                <option>Klaus</option>
+            </datalist>
+        </label>
+        <p></p>
+        <hr />
+        <label class="sub_itemm">
+            Review:<br>
+            <textarea name="text1" rows="10" cols="150" maxlength="600" placeholder="Type there (300 symbols max)"></textarea> 
+        </label>
+        <p></p>
+        <hr />
+
+        <button class="button button__inter">
+            <img src="./send_icon_151111.ico" alt="inter" class="button-icon">
+            <span class="button-text">Send</span>
+        </button>
+        <p></p>
+        <p></p>
+        <input type="submit" value="Send" class="dada">
+        <input type="reset" value="Reset" class="dada">
+
+    </form>
+
+
+</body>
+
+
+</html>
