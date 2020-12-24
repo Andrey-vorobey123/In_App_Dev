@@ -1,0 +1,28 @@
+
+
+{% extends "base_generic.html" %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/styles.css' %}">
+{% block content %}
+<h1 style="font-weight: 700;">About film: The Shawshank Redemtion</h1>
+
+  <p>Welcome to Film Page</p>
+
+<h2>Just info</h2>
+{% load static %}
+<img src="{% static 'images/tsr.jpg' %}" alt="My image" class="format"/>
+
+  <p>About:</p>
+  <ul>
+    <li><strong>Year: 1994</strong></li>
+    <li><strong>Country: USA</strong></li>
+    <li><strong>Style: drama</strong></li>
+    <li><strong>Rating: 9.0</strong></li>
+    <!-- <li><strong>Authors:</strong> {{ num_authors }}</li> -->
+  </ul>
+<p>Бухгалтер Энди Дюфрейн обвинён в убийстве собственной жены и её любовника. Оказавшись в тюрьме под названием Шоушенк,</p>
+<p>он сталкивается с жестокостью и беззаконием, царящими по обе стороны решётки. Каждый, кто попадает в эти стены, становится </p>
+<p>их рабом до конца жизни. Но Энди, обладающий живым умом и доброй душой, находит подход как к заключённым, так и к охранникам,</p>
+<p>добиваясь их особого к себе расположения.</p>
+
+{% endblock %}

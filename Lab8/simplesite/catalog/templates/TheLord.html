@@ -1,0 +1,30 @@
+
+
+{% extends "base_generic.html" %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/styles.css' %}">
+{% block content %}
+<h1 style="font-weight: 700;">About film: The Lord of the Rings: the Return of the King</h1>
+
+  <p>Welcome to Film Page</p>
+
+<h2>Just info</h2>
+{% load static %}
+<img src="{% static 'images/lotr.jpg' %}" alt="My image" class="format"/>
+
+  <p>About:</p>
+  <ul>
+    <li><strong>Year: 2003</strong></li>
+    <li><strong>Country: USA, New Zealand</strong></li>
+    <li><strong>Style: fantasy, drama, adventure</strong></li>
+    <li><strong>Rating: 8.8</strong></li>
+    <!-- <li><strong>Authors:</strong> {{ num_authors }}</li> -->
+  </ul>
+<p>Последняя часть трилогии о Кольце Всевластия и о героях, взявших на себя бремя спасения Средиземья. Повелитель сил Тьмы Саурон</p>
+<p>направляет свои бесчисленные рати под стены Минас-Тирита, крепости Последней Надежды. Он предвкушает близкую победу, но именно</p>
+<p>это и мешает ему заметить две крохотные фигурки - хоббитов, приближающихся к Роковой Горе, где им предстоит уничтожить Кольцо Всевластия.</p>
+<p>Улыбнется ли им счастье?</p>
+
+{% endblock %}
+
+   
