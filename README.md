@@ -6,7 +6,7 @@
 ## Лабораторные работы(отчеты):
 * 1 отчет: [Тут](https://github.com/Andrey-vorobey123/In_App_Dev/blob/main/Reports/%D0%A0%D0%98%D0%9F_Kobyak_%D0%9B%D0%A01.pdf)
   ##### условия: <https://github.com/iu5team/iu5web-fall-2020/wiki/lab_python_intro>
-* 2 ответ: [Тут](https://github.com/Andrey-vorobey123/In_App_Dev/blob/main/Reports/%D0%A0%D0%98%D0%9F_Kobyak_%D0%9B%D0%A02.pdf)
+* 2 отчет: [Тут](https://github.com/Andrey-vorobey123/In_App_Dev/blob/main/Reports/%D0%A0%D0%98%D0%9F_Kobyak_%D0%9B%D0%A02.pdf)
   ##### условия: <https://github.com/iu5team/iu5web-fall-2020/wiki/lab_python_oop>
 * 3 отчет: [Тут](https://github.com/Andrey-vorobey123/In_App_Dev/blob/main/Reports/%D0%A0%D0%98%D0%9F_Kobyak_%D0%9B%D0%A03.pdf)
   ##### условия: <https://github.com/iu5team/iu5web-fall-2020/wiki/lab_python_fp>
