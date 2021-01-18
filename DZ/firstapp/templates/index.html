@@ -1,0 +1,26 @@
+{% extends "base_generic.html" %}
+
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/styles.css' %}">
+
+{% block content %}
+<div class="">
+<h1 style="font-weight: 700;">Internet Application Developing homework</h1>
+
+  <p>Welcome to <em>My Django App</em>, a Django website of <strong>Andrew Kobyak IU5-52</strong></p>
+
+<h2>Based on DataBase</h2>
+
+  <p>The site has the following functions</p>
+  <ul>
+    <li><strong>There are two models: Internet Cinemas and Films</strong></li>
+    <li><strong>Cinemas consists of varios internet apps, for ex, Netflix</strong></li>
+    <li><strong>Films consists of data about different films we can see in corresponding sites</strong></li>
+    <li><strong>You can see a report about cinemas and films in them as list</strong></li>
+    <li><strong>If you have privilege you can modify, add and remove data from tables</strong></li>
+    <!-- <li><strong>Authors:</strong> {{ num_authors }}</li> -->
+  </ul>
+  {% load static %}
+  <img src="{% static 'img/kino_online.jpg' %}" alt="" width="1000px">
+</div>
+{% endblock %}

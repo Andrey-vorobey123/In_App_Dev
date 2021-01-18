@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% block title %}<title>Содержание</title>{% endblock %}
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <div class="">
+    <nav class="navbar navbar-expand-md sticky-top navbar-dark bg-dark">
+        <div class="wwwwww">
+        <div class="container-fluid d-flex justify-content-between papapa">
+            <div>
+            <a class="navbar-brand sizesize" href="{% url 'indexx' %}">My RIP_Dz</a>
+            </div>
+          <div class="d-flex justify-content-between" id="navbarNavDropdown">
+            <ul class="navbar-nav rr">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="{% url 'indexx' %}">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link c" href="{% url 'script' %}">Report</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link c" href="../../../home/admin">Topics & Content</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link c" href="#">Books</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link c" href="#">Podcasts</a>
+              </li>
+            </ul>
+            <button type="button" class="btn btn-info rar text-nowrap"><a href="../../../home/admin" class="nou">Redact data</a></button>
+          </div>
+        </div>
+        </div>
+      </nav>
+      <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <div class="wwwwww">
+            <div class="container-fluid d-flex justify-content-between">
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search an article" aria-label="Search">
+                    <button class="btn btn-outline-success puk" type="submit">Search</button>
+                </form>
+                <div class="btn-group">
+                    <button type="button" class="btn btn-info dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                      Select topic
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Kinopoisk</a></li>
+                      <li><a class="dropdown-item" href="#">IVI</a></li>
+                      <li><a class="dropdown-item" href="#">Netflix</a></li>
+                      <li><a class="dropdown-item" href="#">Okko</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="{% url 'indexx' %}">About author</a></li>
+                    </ul>
+                  </div>
+            </div>
+        </div>
+      </nav>
+    
+    <div class="zzz">
+      <div class="">
+      {% block content %}{% endblock %}
+      </div>
+    </div>
+    <nav class="navbar fixed-bottom navbar-dark bg-dark">
+      <div class="wwwwww">
+        <div class="container-fluid d-flex justify-content-between papapa">
+          <div>
+            <a class="navbar-brand sizesize">My RIP_Dz</a>
+          </div>
+
+          <div class="d-flex justify-content-between" id="navbarNavDropdown">
+            <a href="https://vk.com/andgen" target="_blank" class="social-item">
+              {% load static %}
+              <img src="{% static 'img/vk.png' %}" alt="" class="social-pic">
+            </a>
+            <a href="#!" class="social-item">
+              {% load static %}
+              <img src="{% static 'img/inst.png' %}" alt="" class="social-pic">
+            </a>
+            <a href="https://github.com/Andrey-vorobey123/In_App_Dev" target="_blank" class="">
+              {% load static %}
+              <img src="{% static 'img/git.png' %}" alt="" class="social-pic">
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+</body>
+
+
+</html>
