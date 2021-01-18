@@ -1,8 +1,8 @@
 # Разработка интернет-приложений
 ## Домашнее задание:
-* отчет: [Тут](https://github.com/Andrey-vorobey123/In_App_Dev/blob/main/Reports/%D0%A0%D0%98%D0%9F_Kobyak_DZ.pdf)
-  ##### условие: [Тут](https://github.com/iu5team/iu5web-fall-2020/wiki/DZ)
-  ##### проект-ДЗ на PythonAnywhere.com: [Тут](https://andrewvorobey.pythonanywhere.com/)
+* ### отчет: [Тут](https://github.com/Andrey-vorobey123/In_App_Dev/blob/main/Reports/%D0%A0%D0%98%D0%9F_Kobyak_DZ.pdf)
+* ### условие: [Тут](https://github.com/iu5team/iu5web-fall-2020/wiki/DZ)
+* ### проект-ДЗ на PythonAnywhere.com: [Тут](https://andrewvorobey.pythonanywhere.com/)
 
 ## Рубежные контроли(отчеты):
 * РК1: <https://github.com/Andrey-vorobey123/In_App_Dev/blob/main/Rk1/%D0%A0%D0%9A1%20Kobyak.pdf>
